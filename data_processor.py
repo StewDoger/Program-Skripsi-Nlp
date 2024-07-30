@@ -1,20 +1,58 @@
 import pandas as pd
 import numpy as np
-import tempfile
-import os
+import requests
+from bs4 import BeautifulSoup
 from transformers import RagTokenizer, RagSequenceForGeneration
-from docx import Document
 from datasets import Dataset, load_from_disk
 import faiss
+import tempfile
+import os
+from docx import Document
 
-# Fungsi untuk memuat data dari file Excel
-def load_excel_data(file_path):
+# Fungsi untuk mengunduh konten dari URL
+def download_content_from_url(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an error for bad responses
+        soup = BeautifulSoup(response.text, 'html.parser')
+        # Ambil semua teks dari elemen <p> sebagai contoh
+        paragraphs = soup.find_all('p')
+        text = ' '.join([para.get_text() for para in paragraphs])
+        return text
+    except Exception as e:
+        print(f"Error downloading {url}: {e}")
+        return ""
+
+# Fungsi untuk memuat data dari file Excel, termasuk URL
+def load_excel_data_from_urls(file_path, texts_file_path):
     df = pd.read_excel(file_path)
-    data = df.to_dict(orient='records')
+    # Mengunduh konten dari URL
+    texts = []
+    titles = df.get('Title', ['']*len(df))  # Menggunakan 'Title' jika ada
+    for url in df['Url']:
+        text = download_content_from_url(url)
+        texts.append(text)
+    
+    # Simpan hasil ke file Excel
+    output_df = pd.DataFrame({
+        'Title': titles,
+        'Text': texts
+    })
+    output_df.to_excel(texts_file_path, index=False)
+
     return Dataset.from_dict({
-        'title': [item.get('title', '') for item in data],
-        'text': [item['Text'] for item in data],
-        'embeddings': [np.zeros(768).tolist() for _ in data]  # Placeholder untuk embeddings
+        'title': titles,
+        'text': texts,
+        'embeddings': [np.zeros(768).tolist() for _ in range(len(df))]  # Placeholder untuk embeddings
+    })
+
+# Fungsi untuk memuat data dari file Excel dengan teks berita
+def load_excel_data_with_texts(file_path):
+    df = pd.read_excel(file_path)
+    return Dataset.from_dict({
+        'title': df.get('Title', ['']*len(df)),
+        'text': df['Text'].tolist(),
+        'embeddings': [np.zeros(768).tolist() for _ in range(len(df))]  # Placeholder untuk embeddings
     })
 
 # Simpan dataset ke disk
@@ -32,10 +70,19 @@ def load_dataset(path):
 rag_tokenizer = RagTokenizer.from_pretrained('facebook/rag-sequence-nq')
 rag_model = RagSequenceForGeneration.from_pretrained('facebook/rag-sequence-nq')
 
-# Memuat dataset dari file Excel
-data_path = "E:/Program Skripsi Nlp/data/file_berita_dengan_teks.xlsx" 
+# Path file Excel
+urls_file_path = "E:/Program Skripsi Nlp/data/test.xlsx"  # File Excel dengan URL berita
+texts_file_path = "E:/Program Skripsi Nlp/data/texts.xlsx"  # File Excel dengan teks berita
 dataset_path = "E:/Program Skripsi Nlp/dataset"
 index_path = "E:/Program Skripsi Nlp/faiss/index.faiss"
+
+# Ambil teks dari URL dan simpan ke dataset
+dataset_from_urls = load_excel_data_from_urls(urls_file_path, texts_file_path)
+save_dataset(dataset_from_urls, dataset_path)
+
+# Muat teks berita dari file Excel kedua dan perbarui dataset
+dataset_from_texts = load_excel_data_with_texts(texts_file_path)
+save_dataset(dataset_from_texts, dataset_path)
 
 # Fungsi untuk membuat embedding dari teks menggunakan RAG
 def embed_text(text):
@@ -47,17 +94,13 @@ def embed_text(text):
         last_hidden_state = outputs.last_hidden_state
     return last_hidden_state.mean(dim=1).detach().numpy()  # Mengambil mean dari dimensi waktu
 
-# Memuat dataset dan menyimpan ke disk
-dataset = load_excel_data(data_path)
-dataset.save_to_disk(dataset_path)
-
-# Membuat embedding untuk setiap teks dalam dataset
+# Muat dataset dan simpan embeddings ke disk menggunakan FAISS
+dataset = load_dataset(dataset_path)
 embeddings = np.array([embed_text(item) for item in dataset['text']])
 # Pastikan embeddings adalah 2D
 if embeddings.ndim == 3:
     embeddings = embeddings.reshape(embeddings.shape[0], -1)
 
-# Simpan embeddings ke disk menggunakan FAISS
 faiss_index = faiss.IndexFlatL2(embeddings.shape[1])  # Sesuaikan dengan dimensi embedding
 faiss_index.add(embeddings.astype(np.float32))
 faiss.write_index(faiss_index, index_path)
@@ -66,18 +109,30 @@ faiss.write_index(faiss_index, index_path)
 dataset = load_from_disk(dataset_path)
 faiss_index = faiss.read_index(index_path)
 
+# Fungsi untuk membersihkan teks dari file DOCX
+def clean_text_from_docx(file_path, unwanted_texts):
+    doc = Document(file_path)
+    full_text = []
+    for para in doc.paragraphs:
+        full_text.append(para.text)
+    combined_text = "\n".join(full_text)
+    for unwanted_text in unwanted_texts:
+        combined_text = combined_text.replace(unwanted_text, "")
+    return combined_text
+
+# Fungsi untuk memproses file DOCX
 def process_word_file(file):
     # Simpan file yang diunggah ke file sementara
     with tempfile.NamedTemporaryFile(delete=False, suffix='.docx') as temp_file:
         file.save(temp_file.name)
         temp_file_path = temp_file.name
 
-    # Buka dan proses file DOCX
-    doc = Document(temp_file_path)
-    text_content = '\n'.join([para.text for para in doc.paragraphs])
-
+    # Bersihkan teks dari file DOCX
+    unwanted_texts = ["SCROLL TO CONTINUE WITH CONTENT"]
+    cleaned_text = clean_text_from_docx(temp_file_path, unwanted_texts)
+    
     # Buat query atau teks untuk diringkas
-    query = text_content
+    query = cleaned_text
     
     # Pencarian Dokumen menggunakan RAG
     question_encodings = rag_tokenizer(query, return_tensors='pt')
