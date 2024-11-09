@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Berita</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center">Ringkasan Berita</h1>
+        <p class="text-center">Silakan masukkan URL berita dari sumber yang valid</p>
+
+        <div class="box mb-4 p-4 border rounded shadow-sm">
+            <h5>URL yang Diterima:</h5>
+            <ul>
+                <li><em>https://www.cnnindonesia.com/</em></li>
+                <li><em>https://www.cnbcindonesia.com/</em></li>
+            </ul>
+        </div>
+
+        <form action="{{ url_for('ringkas') }}" method="post" class="mt-4" onsubmit="showLoadingMessage()">
+            <div class="input-group mb-3">
+                <input type="url" class="form-control" id="url" name="url" placeholder="Contoh: https://www.cnnindonesia.com/" required>
+                <button type="submit" class="btn btn-primary">Ringkas</button>
+            </div>
+        </form>
+
+        <div id="loadingMessage" class="alert alert-info mt-4">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <img src="https://i.gifer.com/XOsX.gif" alt="Loading...">
+            <p>Sedang dilakukan proses ringkasan, harap tunggu...</p>
+        </div>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="mt-4">
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <script>
+        function showLoadingMessage() {
+            // Menampilkan pesan loading
+            document.getElementById('loadingMessage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

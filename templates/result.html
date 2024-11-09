@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Result</title>
+    <title>Hasil Ringkasan</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Proses Selesai</h1>
-    <p>File Word dengan teks dan ringkasan telah disimpan. Klik di bawah ini untuk mengunduh:</p>
-    <a href="{{ url_for('download_file', filename=filename) }}">Download File</a>
+    <div class="container mt-5">
+        <h1>Proses Selesai</h1>
+        <p>File dengan teks dan ringkasan telah berhasil disimpan. Klik tombol di bawah ini untuk mengunduh file ringkasan:</p>
+        <a href="{{ url_for('download_file', filename=filename) }}">Download File</a>
+    </div>
 </body>
 </html>

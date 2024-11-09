@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.gifer.com/J4o.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #cccff5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    color: #3b434c;
+    margin-bottom: 1rem;
+}
+
+/* Text */
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* Download Button */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Margin Top for Containers */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+/* Progress Container */
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #007bff;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    transition: width 0.4s ease;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Loading Text */
+.loading-text {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.box {
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255); /* Latar belakang kotak */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan kotak */
+    padding: 20px; /* Padding di dalam kotak */
+}
+
+/* Style untuk loading message */
+#loadingMessage {
+    display: none; /* Sembunyikan loading message secara default */
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loadingMessage img {
+    width: 50px; /* Sesuaikan ukuran gambar loading sesuai kebutuhan */
+    height: 50px;
+}
+
+/* Margin atas untuk tombol dan alert */
+.mt-4 {
+    margin-top: 20px;
+}

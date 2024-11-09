@@ -1,0 +1,416 @@
+URL Berita: https://www.cnnindonesia.com/olahraga/20241101182232-142-1162130/kronologi-gol-bersejarah-rafael-struick-di-liga-australia
+Waktu Proses: 25.57 detik
+Timestamp: 2024-11-02 00:59:58
+ROUGE-1: Score(precision=0.875, recall=0.06334841628959276, fmeasure=0.11814345991561181)
+ROUGE-2: Score(precision=0.6666666666666666, recall=0.045454545454545456, fmeasure=0.08510638297872342)
+ROUGE-L: Score(precision=0.625, recall=0.04524886877828054, fmeasure=0.08438818565400845)
+Kemiripan: 0.9160
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/internasional/20241101124334-120-1161901/timteng-makin-gawat-milisi-irak-ikut-ikutan-tembak-drone-ke-israel
+Waktu Proses: 23.45 detik
+Timestamp: 2024-11-02 01:01:46
+ROUGE-1: Score(precision=0.8666666666666667, recall=0.06806282722513089, fmeasure=0.1262135922330097)
+ROUGE-2: Score(precision=0.7142857142857143, recall=0.05263157894736842, fmeasure=0.0980392156862745)
+ROUGE-L: Score(precision=0.8666666666666667, recall=0.06806282722513089, fmeasure=0.1262135922330097)
+Kemiripan: 0.9642
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241101181818-12-1162128/polda-metro-geledah-kantor-kementerian-komdigi-usut-kasus-judi-online
+Waktu Proses: 25.98 detik
+Timestamp: 2024-11-02 01:02:51
+ROUGE-1: Score(precision=1.0, recall=0.1164021164021164, fmeasure=0.2085308056872038)
+ROUGE-2: Score(precision=1.0, recall=0.11170212765957446, fmeasure=0.20095693779904306)
+ROUGE-L: Score(precision=1.0, recall=0.1164021164021164, fmeasure=0.2085308056872038)
+Kemiripan: 0.9572
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/olahraga/20241101164920-142-1162078/timnas-malaysia-terpuruk-bos-jdt-tolak-gabung-fam
+Waktu Proses: 25.04 detik
+Timestamp: 2024-11-02 01:04:40
+ROUGE-1: Score(precision=0.48, recall=0.05263157894736842, fmeasure=0.09486166007905138)
+ROUGE-2: Score(precision=0.3333333333333333, recall=0.03524229074889868, fmeasure=0.06374501992031874)
+ROUGE-L: Score(precision=0.44, recall=0.04824561403508772, fmeasure=0.08695652173913043)
+Kemiripan: 0.9519
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241101203209-12-1162190/bnn-sebut-ada-900an-kampung-narkoba-di-ri-bareskrim-target-100-hari
+Waktu Proses: 22.23 detik
+Timestamp: 2024-11-02 01:06:32
+ROUGE-1: Score(precision=1.0, recall=0.035211267605633804, fmeasure=0.06802721088435375)
+ROUGE-2: Score(precision=0.8947368421052632, recall=0.029982363315696647, fmeasure=0.058020477815699655)
+ROUGE-L: Score(precision=0.85, recall=0.02992957746478873, fmeasure=0.057823129251700675)
+Kemiripan: 0.9336
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/olahraga/20241101102947-156-1161849/hasil-fp1-motogp-malaysia-bagnaia-tercepat-martin-ke-6?mtype=mpc.ctr.A-boxccxmpcxmp-modelA
+Waktu Proses: 21.02 detik
+Timestamp: 2024-11-02 01:07:25
+ROUGE-1: Score(precision=1.0, recall=0.03018867924528302, fmeasure=0.05860805860805861)
+ROUGE-2: Score(precision=0.8571428571428571, recall=0.022727272727272728, fmeasure=0.04428044280442805)
+ROUGE-L: Score(precision=1.0, recall=0.03018867924528302, fmeasure=0.05860805860805861)
+Kemiripan: 0.9064
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/ekonomi/20241101193529-92-1162162/bpom-tarik-jajanan-la-tiao-dari-china-karena-kandung-bakteri-racun
+Waktu Proses: 26.04 detik
+Timestamp: 2024-11-02 01:08:21
+ROUGE-1: Score(precision=0.6190476190476191, recall=0.058823529411764705, fmeasure=0.10743801652892562)
+ROUGE-2: Score(precision=0.35, recall=0.031818181818181815, fmeasure=0.058333333333333334)
+ROUGE-L: Score(precision=0.47619047619047616, recall=0.04524886877828054, fmeasure=0.08264462809917357)
+Kemiripan: 0.9537
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241101160349-20-1162053/pbnu-tuntut-regulasi-peredaran-miras-diperketat-imbas-penusukan-santri
+Waktu Proses: 22.86 detik
+Timestamp: 2024-11-02 01:10:33
+ROUGE-1: Score(precision=0.9375, recall=0.07109004739336493, fmeasure=0.13215859030837004)
+ROUGE-2: Score(precision=0.9333333333333333, recall=0.06666666666666667, fmeasure=0.12444444444444444)
+ROUGE-L: Score(precision=0.9375, recall=0.07109004739336493, fmeasure=0.13215859030837004)
+Kemiripan: 0.9614
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241101213534-12-1162202/tom-lembong-bungkam-usai-diperiksa-sebagai-tersangka-kasus-impor-gula
+Waktu Proses: 26.93 detik
+Timestamp: 2024-11-02 01:11:45
+ROUGE-1: Score(precision=1.0, recall=0.08015267175572519, fmeasure=0.14840989399293283)
+ROUGE-2: Score(precision=0.9, recall=0.06896551724137931, fmeasure=0.12811387900355872)
+ROUGE-L: Score(precision=1.0, recall=0.08015267175572519, fmeasure=0.14840989399293283)
+Kemiripan: 0.9537
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/ekonomi/20241031145736-85-1161642/bahlil-soal-tom-lembong-tersangka-korupsi-gula-junior-turut-prihatin
+Waktu Proses: 27.56 detik
+Timestamp: 2024-11-02 01:12:45
+ROUGE-1: Score(precision=0.9130434782608695, recall=0.1111111111111111, fmeasure=0.19811320754716982)
+ROUGE-2: Score(precision=0.8181818181818182, recall=0.09574468085106383, fmeasure=0.17142857142857143)
+ROUGE-L: Score(precision=0.9130434782608695, recall=0.1111111111111111, fmeasure=0.19811320754716982)
+Kemiripan: 0.9505
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/internasional/20241101204402-106-1162191/buronan-thailand-ditangkap-di-ri-gegara-lagu-indonesia-raya
+Waktu Proses: 22.60 detik
+Timestamp: 2024-11-02 01:13:38
+ROUGE-1: Score(precision=0.8333333333333334, recall=0.028011204481792718, fmeasure=0.05420054200542005)
+ROUGE-2: Score(precision=0.5454545454545454, recall=0.016853932584269662, fmeasure=0.0326975476839237)
+ROUGE-L: Score(precision=0.8333333333333334, recall=0.028011204481792718, fmeasure=0.05420054200542005)
+Kemiripan: 0.9317
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241101233236-20-1162209/rs-polri-terima-12-kantong-jenazah-korban-kebakaran-pabrik-bekasi
+Waktu Proses: 26.58 detik
+Timestamp: 2024-11-02 01:15:04
+ROUGE-1: Score(precision=0.8076923076923077, recall=0.065625, fmeasure=0.12138728323699423)
+ROUGE-2: Score(precision=0.56, recall=0.0438871473354232, fmeasure=0.08139534883720931)
+ROUGE-L: Score(precision=0.5384615384615384, recall=0.04375, fmeasure=0.08092485549132948)
+Kemiripan: 0.9547
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/internasional/20241101172223-120-1162101/profil-kelompok-perlawanan-islam-irak-milisi-yang-ikut-serang-israel
+Waktu Proses: 23.62 detik
+Timestamp: 2024-11-02 01:16:57
+ROUGE-1: Score(precision=0.8333333333333334, recall=0.047619047619047616, fmeasure=0.09009009009009009)
+ROUGE-2: Score(precision=0.6470588235294118, recall=0.03503184713375796, fmeasure=0.06646525679758308)
+ROUGE-L: Score(precision=0.8333333333333334, recall=0.047619047619047616, fmeasure=0.09009009009009009)
+Kemiripan: 0.9433
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/internasional/20241101133306-113-1161950/kenapa-taliban-larang-perempuan-bersuara-termasuk-saat-baca-al-quran
+Waktu Proses: 24.06 detik
+Timestamp: 2024-11-02 01:17:52
+ROUGE-1: Score(precision=1.0, recall=0.07633587786259542, fmeasure=0.14184397163120568)
+ROUGE-2: Score(precision=0.7894736842105263, recall=0.05747126436781609, fmeasure=0.10714285714285714)
+ROUGE-L: Score(precision=0.9, recall=0.06870229007633588, fmeasure=0.12765957446808512)
+Kemiripan: 0.9670
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/ekonomi/20241101202636-625-1162187/bank-mandiri-dukung-kemajuan-industri-kopi-lokal-di-jacoweek-2024
+Waktu Proses: 22.94 detik
+Timestamp: 2024-11-02 01:18:52
+ROUGE-1: Score(precision=0.9473684210526315, recall=0.03220035778175313, fmeasure=0.06228373702422146)
+ROUGE-2: Score(precision=0.8333333333333334, recall=0.026881720430107527, fmeasure=0.05208333333333333)
+ROUGE-L: Score(precision=0.9473684210526315, recall=0.03220035778175313, fmeasure=0.06228373702422146)
+Kemiripan: 0.9406
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/ekonomi/20241101192550-94-1162146/foto-open-house-rusunawa-pasar-rumput-diserbu-warga
+Waktu Proses: 18.68 detik
+Timestamp: 2024-11-02 01:19:49
+ROUGE-1: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+ROUGE-2: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+ROUGE-L: Score(precision=0, recall=0, fmeasure=0)
+Kemiripan: 0.7215
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/teknologi/20241101163435-185-1162068/meutya-pastikan-bakal-pecat-tak-hormat-pegawai-komdigi-terlibat-judol
+Waktu Proses: 25.40 detik
+Timestamp: 2024-11-02 01:22:24
+ROUGE-1: Score(precision=1.0, recall=0.05069124423963134, fmeasure=0.09649122807017545)
+ROUGE-2: Score(precision=0.9, recall=0.041666666666666664, fmeasure=0.07964601769911504)
+ROUGE-L: Score(precision=0.8181818181818182, recall=0.041474654377880185, fmeasure=0.07894736842105263)
+Kemiripan: 0.9490
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/teknologi/20241101150812-185-1162011/menkomdigi-pastikan-tindak-tegas-pegawai-terlibat-judol
+Waktu Proses: 27.75 detik
+Timestamp: 2024-11-02 01:23:36
+ROUGE-1: Score(precision=1.0, recall=0.06109324758842444, fmeasure=0.11515151515151514)
+ROUGE-2: Score(precision=0.9444444444444444, recall=0.054838709677419356, fmeasure=0.10365853658536586)
+ROUGE-L: Score(precision=1.0, recall=0.06109324758842444, fmeasure=0.11515151515151514)
+Kemiripan: 0.9483
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/ekonomi/20241101131920-92-1161930/aguan-rogoh-rp60-m-bantu-program-3-juta-rumah-prabowo
+Waktu Proses: 27.12 detik
+Timestamp: 2024-11-02 01:24:44
+ROUGE-1: Score(precision=0.38095238095238093, recall=0.025889967637540454, fmeasure=0.048484848484848485)
+ROUGE-2: Score(precision=0.05, recall=0.003246753246753247, fmeasure=0.006097560975609756)
+ROUGE-L: Score(precision=0.38095238095238093, recall=0.025889967637540454, fmeasure=0.048484848484848485)
+Kemiripan: 0.7953
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/hiburan/20241031140856-220-1161613/sinopsis-jolt-bioskop-trans-tv-1-november-2024
+Waktu Proses: 22.61 detik
+Timestamp: 2024-11-02 01:25:38
+ROUGE-1: Score(precision=1.0, recall=0.03206997084548105, fmeasure=0.062146892655367235)
+ROUGE-2: Score(precision=0.8, recall=0.023391812865497075, fmeasure=0.045454545454545456)
+ROUGE-L: Score(precision=0.9090909090909091, recall=0.029154518950437316, fmeasure=0.05649717514124293)
+Kemiripan: 0.9551
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/otomotif/20241101132950-603-1161948/kenapa-toyota-kijang-innova-listrik-tak-kunjung-diluncurkan
+Waktu Proses: 27.93 detik
+Timestamp: 2024-11-02 01:26:46
+ROUGE-1: Score(precision=0.7083333333333334, recall=0.0648854961832061, fmeasure=0.11888111888111888)
+ROUGE-2: Score(precision=0.30434782608695654, recall=0.02681992337164751, fmeasure=0.04929577464788732)
+ROUGE-L: Score(precision=0.5416666666666666, recall=0.04961832061068702, fmeasure=0.0909090909090909)
+Kemiripan: 0.9202
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/otomotif/20241031141903-603-1161623/dewan-energi-rintisan-ekosistem-mobil-hidrogen-sudah-tersedia-di-ri
+Waktu Proses: 22.14 detik
+Timestamp: 2024-11-02 01:27:53
+ROUGE-1: Score(precision=0.8235294117647058, recall=0.05511811023622047, fmeasure=0.1033210332103321)
+ROUGE-2: Score(precision=0.625, recall=0.039525691699604744, fmeasure=0.07434944237918216)
+ROUGE-L: Score(precision=0.8235294117647058, recall=0.05511811023622047, fmeasure=0.1033210332103321)
+Kemiripan: 0.9521
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/otomotif/20241031115048-579-1161527/cek-fisik-kendaraan-pakai-kamera-diuji-coba-di-bandung
+Waktu Proses: 26.62 detik
+Timestamp: 2024-11-02 01:28:53
+ROUGE-1: Score(precision=0.9473684210526315, recall=0.05901639344262295, fmeasure=0.1111111111111111)
+ROUGE-2: Score(precision=0.7777777777777778, recall=0.046052631578947366, fmeasure=0.08695652173913043)
+ROUGE-L: Score(precision=0.9473684210526315, recall=0.05901639344262295, fmeasure=0.1111111111111111)
+Kemiripan: 0.9282
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/gaya-hidup/20241101170749-255-1162090/kabar-baik-masyarakat-bisa-skrining-kanker-gratis-mulai-tahun-depan
+Waktu Proses: 25.39 detik
+Timestamp: 2024-11-02 01:29:52
+ROUGE-1: Score(precision=0.9285714285714286, recall=0.05058365758754864, fmeasure=0.09594095940959409)
+ROUGE-2: Score(precision=0.6153846153846154, recall=0.03125, fmeasure=0.05947955390334572)
+ROUGE-L: Score(precision=0.7142857142857143, recall=0.038910505836575876, fmeasure=0.07380073800738007)
+Kemiripan: 0.9429
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/gaya-hidup/20241029203709-260-1160975/mayapada-hospital-bandung-atasi-obesitas-lewat-operasi-bariatrik
+Waktu Proses: 23.95 detik
+Timestamp: 2024-11-02 01:31:05
+ROUGE-1: Score(precision=0.8181818181818182, recall=0.014492753623188406, fmeasure=0.02848101265822785)
+ROUGE-2: Score(precision=0.4, recall=0.0064516129032258064, fmeasure=0.012698412698412697)
+ROUGE-L: Score(precision=0.8181818181818182, recall=0.014492753623188406, fmeasure=0.02848101265822785)
+Kemiripan: 0.9324
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101183543-4-585000/banjir-dahsyat-spanyol-buat-eropa-ketar-ketir-ada-apa
+Waktu Proses: 43.04 detik
+Timestamp: 2024-11-02 02:30:06
+ROUGE-1: Score(precision=0.7857142857142857, recall=0.028795811518324606, fmeasure=0.05555555555555555)
+ROUGE-2: Score(precision=0.38461538461538464, recall=0.013123359580052493, fmeasure=0.025380710659898477)
+ROUGE-L: Score(precision=0.7857142857142857, recall=0.028795811518324606, fmeasure=0.05555555555555555)
+Kemiripan: 0.9247
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101182953-4-584996/asia-makin-panas-jepang-eropa-keluarkan-tanda-siap-perang
+Waktu Proses: 34.34 detik
+Timestamp: 2024-11-02 02:31:11
+ROUGE-1: Score(precision=1.0, recall=0.06497175141242938, fmeasure=0.1220159151193634)
+ROUGE-2: Score(precision=0.9090909090909091, recall=0.056657223796033995, fmeasure=0.10666666666666667)
+ROUGE-L: Score(precision=1.0, recall=0.06497175141242938, fmeasure=0.1220159151193634)
+Kemiripan: 0.9702
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101212106-4-585014/kppu-temukan-dugaan-persekongkolan-pengadaan-air-bersih-di-lombok
+Waktu Proses: 27.87 detik
+Timestamp: 2024-11-02 02:32:36
+ROUGE-1: Score(precision=0.9615384615384616, recall=0.056433408577878104, fmeasure=0.10660980810234542)
+ROUGE-2: Score(precision=0.84, recall=0.04751131221719457, fmeasure=0.08993576017130621)
+ROUGE-L: Score(precision=0.9230769230769231, recall=0.05417607223476298, fmeasure=0.1023454157782516)
+Kemiripan: 0.9666
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101181754-4-584972/pemerintah-libatkan-bps-sisir-penerima-subsidi-bbm-cs
+Waktu Proses: 24.52 detik
+Timestamp: 2024-11-02 02:34:00
+ROUGE-1: Score(precision=0.8571428571428571, recall=0.07531380753138076, fmeasure=0.13846153846153847)
+ROUGE-2: Score(precision=0.4, recall=0.03361344537815126, fmeasure=0.06201550387596899)
+ROUGE-L: Score(precision=0.6666666666666666, recall=0.058577405857740586, fmeasure=0.10769230769230768)
+Kemiripan: 0.9404
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101210719-4-585013/kppu-buat-5-putusan-11-usulan-kebijakan-ke-pemerintah-dalam-8-bulan
+Waktu Proses: 26.74 detik
+Timestamp: 2024-11-02 02:35:24
+ROUGE-1: Score(precision=0.95, recall=0.049479166666666664, fmeasure=0.09405940594059405)
+ROUGE-2: Score(precision=0.7368421052631579, recall=0.03655352480417755, fmeasure=0.06965174129353235)
+ROUGE-L: Score(precision=0.85, recall=0.044270833333333336, fmeasure=0.08415841584158415)
+Kemiripan: 0.9534
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/tech/20241101153633-37-584925/ketakutan-joe-biden-terbukti-china-perkuat-militer-pakai-teknologi-as
+Waktu Proses: 21.78 detik
+Timestamp: 2024-11-02 02:36:10
+ROUGE-1: Score(precision=0.9, recall=0.035856573705179286, fmeasure=0.06896551724137932)
+ROUGE-2: Score(precision=0.6666666666666666, recall=0.024, fmeasure=0.04633204633204634)
+ROUGE-L: Score(precision=0.7, recall=0.027888446215139442, fmeasure=0.05363984674329502)
+Kemiripan: 0.8966
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/market/20241101162929-17-584951/laba-indofood--indf--melonjak-24-jadi-rp-876-t-di-q3-2024
+Waktu Proses: 21.50 detik
+Timestamp: 2024-11-02 02:36:57
+ROUGE-1: Score(precision=0.10714285714285714, recall=0.014705882352941176, fmeasure=0.025862068965517238)
+ROUGE-2: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+ROUGE-L: Score(precision=0.10714285714285714, recall=0.014705882352941176, fmeasure=0.025862068965517238)
+Kemiripan: 0.8169
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/mymoney/20241030111940-72-584148/capai-rp1560000-gram-harga-emas-antam-tertinggi-sepanjang-masa
+Waktu Proses: 26.62 detik
+Timestamp: 2024-11-02 02:37:56
+ROUGE-1: Score(precision=0.34782608695652173, recall=0.032388663967611336, fmeasure=0.05925925925925926)
+ROUGE-2: Score(precision=0.09090909090909091, recall=0.008130081300813009, fmeasure=0.01492537313432836)
+ROUGE-L: Score(precision=0.21739130434782608, recall=0.020242914979757085, fmeasure=0.03703703703703704)
+Kemiripan: 0.9233
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101182441-8-584994/video-prabowo-ngotot-selamatkan-pabrik-tekstil-sritex
+Waktu Proses: 21.83 detik
+Timestamp: 2024-11-02 02:38:49
+ROUGE-1: Score(precision=0.85, recall=0.3469387755102041, fmeasure=0.49275362318840576)
+ROUGE-2: Score(precision=0.6842105263157895, recall=0.2708333333333333, fmeasure=0.38805970149253727)
+ROUGE-L: Score(precision=0.8, recall=0.32653061224489793, fmeasure=0.46376811594202894)
+Kemiripan: 0.9796
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101182438-8-584992/video-harga-bbm-terbaru-hingga-sony-phk-ratusan-karyawan
+Waktu Proses: 21.97 detik
+Timestamp: 2024-11-02 02:40:01
+ROUGE-1: Score(precision=0.10526315789473684, recall=0.0273972602739726, fmeasure=0.043478260869565216)
+ROUGE-2: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+ROUGE-L: Score(precision=0.05263157894736842, recall=0.0136986301369863, fmeasure=0.021739130434782608)
+Kemiripan: 0.9523
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101163004-4-584943/siap-siap-esdm-bakal-lelang-6-blok-migas-mulai-bulan-ini
+Waktu Proses: 26.55 detik
+Timestamp: 2024-11-02 02:41:00
+ROUGE-1: Score(precision=0.9629629629629629, recall=0.06175771971496437, fmeasure=0.11607142857142855)
+ROUGE-2: Score(precision=0.9230769230769231, recall=0.05714285714285714, fmeasure=0.10762331838565022)
+ROUGE-L: Score(precision=0.9629629629629629, recall=0.06175771971496437, fmeasure=0.11607142857142855)
+Kemiripan: 0.9700
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241101185618-4-585003/ri-bakal-ekspor-prekursor-ke-tesla-ini-perusahaannya
+Waktu Proses: 25.83 detik
+Timestamp: 2024-11-02 02:41:52
+ROUGE-1: Score(precision=0.92, recall=0.12041884816753927, fmeasure=0.21296296296296294)
+ROUGE-2: Score(precision=0.7916666666666666, recall=0.1, fmeasure=0.17757009345794392)
+ROUGE-L: Score(precision=0.92, recall=0.12041884816753927, fmeasure=0.21296296296296294)
+Kemiripan: 0.9506
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/tech/20241101121653-37-584827/3-cara-penipu-kuras-rekening-pakai-hp-awas-banyak-korban-modus-baru
+Waktu Proses: 22.46 detik
+Timestamp: 2024-11-02 02:43:02
+ROUGE-1: Score(precision=0.9166666666666666, recall=0.015256588072122053, fmeasure=0.030013642564802184)
+ROUGE-2: Score(precision=0.5454545454545454, recall=0.008333333333333333, fmeasure=0.016415868673050615)
+ROUGE-L: Score(precision=0.8333333333333334, recall=0.013869625520110958, fmeasure=0.027285129604365622)
+Kemiripan: 0.9551
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/lifestyle/20241101125523-33-584847/asal-usul-mengapa-k-jadi-singkatan-untuk-ribu
+Waktu Proses: 26.74 detik
+Timestamp: 2024-11-02 02:43:57
+ROUGE-1: Score(precision=0.6818181818181818, recall=0.020435967302452316, fmeasure=0.03968253968253968)
+ROUGE-2: Score(precision=0.19047619047619047, recall=0.005457025920873124, fmeasure=0.010610079575596816)
+ROUGE-L: Score(precision=0.5454545454545454, recall=0.01634877384196185, fmeasure=0.031746031746031744)
+Kemiripan: 0.9345
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/lifestyle/20241101071812-33-584736/prabowo-mau-bangun-central-kitchen-untuk-makan-bergizi-gratis
+Waktu Proses: 22.15 detik
+Timestamp: 2024-11-02 02:44:42
+ROUGE-1: Score(precision=0.9523809523809523, recall=0.042826552462526764, fmeasure=0.08196721311475409)
+ROUGE-2: Score(precision=0.85, recall=0.03648068669527897, fmeasure=0.06995884773662552)
+ROUGE-L: Score(precision=0.9523809523809523, recall=0.042826552462526764, fmeasure=0.08196721311475409)
+Kemiripan: 0.9406
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/lifestyle/20241031153021-33-584608/kemenkes-malaysia-bedah-lagu-apt-rose-beri-peringatan-ke-orang-tua
+Waktu Proses: 26.49 detik
+Timestamp: 2024-11-02 02:45:32
+ROUGE-1: Score(precision=1.0, recall=0.05245901639344262, fmeasure=0.09968847352024922)
+ROUGE-2: Score(precision=0.8, recall=0.039473684210526314, fmeasure=0.07523510971786834)
+ROUGE-L: Score(precision=1.0, recall=0.05245901639344262, fmeasure=0.09968847352024922)
+Kemiripan: 0.9547
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/entrepreneur/20241101104522-25-584799/tingkatkan-daya-saing-bri-peduli-gelar-bantuan-sertifikasi-halal-umkm
+Waktu Proses: 27.95 detik
+Timestamp: 2024-11-02 02:47:12
+ROUGE-1: Score(precision=0.8333333333333334, recall=0.03766478342749529, fmeasure=0.07207207207207207)
+ROUGE-2: Score(precision=0.5217391304347826, recall=0.022641509433962263, fmeasure=0.0433996383363472)
+ROUGE-L: Score(precision=0.7916666666666666, recall=0.035781544256120526, fmeasure=0.06846846846846846)
+Kemiripan: 0.9548
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/entrepreneur/20241002150759-25-576391/kisah-nyata-saat-ramai-janda-kaya-nikahi-pemuda-nganggur-di-jakarta
+Waktu Proses: 26.04 detik
+Timestamp: 2024-11-02 02:48:02
+ROUGE-1: Score(precision=1.0, recall=0.04046242774566474, fmeasure=0.07777777777777778)
+ROUGE-2: Score(precision=0.7, recall=0.02702702702702703, fmeasure=0.05204460966542752)
+ROUGE-L: Score(precision=0.7142857142857143, recall=0.028901734104046242, fmeasure=0.05555555555555555)
+Kemiripan: 0.9568
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/entrepreneur/20241027212050-25-583419/mengecap-manisnya-bisnis-stroberi-dengan-pemberdayaan-bri
+Waktu Proses: 12.10 detik
+Timestamp: 2024-11-02 02:48:40
+ROUGE-1: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+ROUGE-2: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+ROUGE-L: Score(precision=0.0, recall=0.0, fmeasure=0.0)
+Kemiripan: 0.7952
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/tech/20241101143214-37-584899/neraka-bocor-di-jepang-gunung-fuji-tak-bersalju-pertama-kalinya
+Waktu Proses: 26.63 detik
+Timestamp: 2024-11-02 02:49:48
+ROUGE-1: Score(precision=0.8, recall=0.10300429184549356, fmeasure=0.18250950570342206)
+ROUGE-2: Score(precision=0.41379310344827586, recall=0.05172413793103448, fmeasure=0.09195402298850575)
+ROUGE-L: Score(precision=0.4, recall=0.05150214592274678, fmeasure=0.09125475285171103)
+Kemiripan: 0.9092
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/tech/20241101163013-38-584944/penampakan-markas-pegawai-komdigi-tersangka-judi-online-di-bekasi
+Waktu Proses: 24.83 detik
+Timestamp: 2024-11-02 02:50:45
+ROUGE-1: Score(precision=1.0, recall=0.09815950920245399, fmeasure=0.17877094972067037)
+ROUGE-2: Score(precision=0.8666666666666667, recall=0.08024691358024691, fmeasure=0.14689265536723162)
+ROUGE-L: Score(precision=1.0, recall=0.09815950920245399, fmeasure=0.17877094972067037)
+Kemiripan: 0.9498
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/tech/20241031145359-37-584596/bmkg-ungkap-wilayah-ri-paling-rentan-tsunami-cek-lokasinya
+Waktu Proses: 24.30 detik
+Timestamp: 2024-11-02 02:51:59
+ROUGE-1: Score(precision=0.9411764705882353, recall=0.07239819004524888, fmeasure=0.13445378151260506)
+ROUGE-2: Score(precision=0.8125, recall=0.05909090909090909, fmeasure=0.11016949152542373)
+ROUGE-L: Score(precision=0.9411764705882353, recall=0.07239819004524888, fmeasure=0.13445378151260506)
+Kemiripan: 0.9445
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20240605125842-4-544037/hizbullah-siap-perang-habis-habisan-dengan-israel-netanyahu-terjepit?mtype=mpc.w.A-boxccxmpcxmp-modelA
+Waktu Proses: 23.50 detik
+Timestamp: 2024-11-02 02:52:47
+ROUGE-1: Score(precision=0.9375, recall=0.053763440860215055, fmeasure=0.1016949152542373)
+ROUGE-2: Score(precision=0.7333333333333333, recall=0.039568345323741004, fmeasure=0.0750853242320819)
+ROUGE-L: Score(precision=0.9375, recall=0.053763440860215055, fmeasure=0.1016949152542373)
+Kemiripan: 0.9668
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/news/20241029125659-4-583886/bukan-nikel-di-era-prabowo-ri-bakal-fokus-ke-3-komoditas-ini?mtype=mpc.w.B-boxccxmpcxmp-modelB
+Waktu Proses: 22.90 detik
+Timestamp: 2024-11-02 02:53:38
+ROUGE-1: Score(precision=1.0, recall=0.025, fmeasure=0.04878048780487806)
+ROUGE-2: Score(precision=0.7, recall=0.015945330296127564, fmeasure=0.0311804008908686)
+ROUGE-L: Score(precision=0.9090909090909091, recall=0.022727272727272728, fmeasure=0.04434589800443459)
+Kemiripan: 0.9309
+----------------------------------------
+URL Berita: https://www.cnbcindonesia.com/lifestyle/20241031170026-33-584644/mcdonalds-islandia-tutup-permanen-imbas-boikot-israel-benarkah
+Waktu Proses: 17.76 detik
+Timestamp: 2024-11-02 02:54:32
+ROUGE-1: Score(precision=0.26666666666666666, recall=0.009615384615384616, fmeasure=0.018561484918793503)
+ROUGE-2: Score(precision=0.07142857142857142, recall=0.0024096385542168677, fmeasure=0.004662004662004662)
+ROUGE-L: Score(precision=0.26666666666666666, recall=0.009615384615384616, fmeasure=0.018561484918793503)
+Kemiripan: 0.7535
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241018105850-12-1156727/masa-depan-kpk-di-bawah-bayang-korps-pemberantasan-korupsi-polri
+Waktu Proses: 35.74 detik
+Timestamp: 2024-11-04 10:33:29
+ROUGE-1: Score(precision=1.0, recall=0.031936127744510975, fmeasure=0.061895551257253385)
+ROUGE-2: Score(precision=0.9333333333333333, recall=0.028, fmeasure=0.05436893203883495)
+ROUGE-L: Score(precision=1.0, recall=0.031936127744510975, fmeasure=0.061895551257253385)
+Kemiripan: 0.9592
+----------------------------------------
+URL Berita: https://www.cnnindonesia.com/nasional/20241018105850-12-1156727/masa-depan-kpk-di-bawah-bayang-korps-pemberantasan-korupsi-polri
+Waktu Proses: 23.99 detik
+Timestamp: 2024-11-04 10:33:48
+ROUGE-1: Score(precision=1.0, recall=0.031936127744510975, fmeasure=0.061895551257253385)
+ROUGE-2: Score(precision=0.9333333333333333, recall=0.028, fmeasure=0.05436893203883495)
+ROUGE-L: Score(precision=1.0, recall=0.031936127744510975, fmeasure=0.061895551257253385)
+Kemiripan: 0.9592
+----------------------------------------
