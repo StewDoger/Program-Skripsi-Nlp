@@ -10,7 +10,8 @@
     <div class="container mt-5">
         <h1>Proses Selesai</h1>
         <p>File dengan teks dan ringkasan telah berhasil disimpan. Klik tombol di bawah ini untuk mengunduh file ringkasan:</p>
-        <a href="{{ url_for('download_file', filename=filename) }}">Download File</a>
+        <a href="{{ url_for('download_file', filename=filename) }}" class="btn btn-primary">Download File</a>
+        <a href="{{ url_for('home') }}" class="btn btn-secondary mt-3">Back to Home</a>
     </div>
 </body>
 </html>
