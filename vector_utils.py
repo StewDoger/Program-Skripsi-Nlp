@@ -68,7 +68,7 @@ def process_document(doc):
 
 def prepare_vector_database(dataset, cache_path='embedding_cache.pkl', batch_size=1000):
     """Menyiapkan basis data vektor dengan batch kecil dan cache."""
-    # Cek jika cache ada
+    # Cek jika cache
     if os.path.exists(cache_path):
         try:
             with open(cache_path, 'rb') as f:

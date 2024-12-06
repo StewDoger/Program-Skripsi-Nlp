@@ -24,10 +24,6 @@ def generate_summary(input_text, relevant_texts):
     # Generate summary parameter
     summary_ids = pegasus_model.generate(
         inputs['input_ids'],
-        # max_length=200,
-        # min_length=30,
-        # length_penalty=1.5,
-        # num_beams=6,
         do_sample=False,
         early_stopping=True
     )
